@@ -17,6 +17,26 @@ footer {
   bottom: 0;
 }
 
+#centerpiece {
+  position: relative;
+  border-radius: 10px;
+}
+
+#name {
+  position: absolute;
+  top: -50px;
+  right: 0px;
+  opacity: .6;
+  font-weight: bolder;
+}
+
+#slogan {
+  position: absolute;
+  bottom: 28px;
+  opacity: .6;
+  font-weight: bolder;
+}
+
 .project-container {
   display: flex;
   justify-content: flex-start;

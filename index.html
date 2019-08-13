@@ -16,18 +16,17 @@
 <body>
 
    <nav>
-      <div class="nav-wrapper">
+      <div class="nav-wrapper red darken-4">
          <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">more_vert</i></a>
-         <ul class="right hide-on-med-and-down">
+         <ul id="" class="hide-on-med-and-down">
             <li><a class="modal-trigger" href="#modal1">About Me</a></li>
             <li><a class="modal-trigger" href="#modal2">Contact</a></li>
             <li><a class="modal-trigger" href="#modal3">Projects</a></li>
          </ul>
       </div>
 
-      <ul id="slide-out" class="sidenav">
-         <li><img src="img/200px-placeholder.jpg" /></li>
-         <li><a href="#!">About Me</a></li>
+      <ul id="slide-out" class="sidenav center-align">
+         <li><img src="img/ryan01.jpg" class="circle responsive-img" /></li>
          <li><button data-target="modal1" class="btn modal-trigger">About</button></li>
          <li><button data-target="modal2" class="btn modal-trigger">Contact</button></li>
          <li><button data-target="modal3" class="btn modal-trigger">Projects</button></li>
@@ -38,9 +37,11 @@
 
    <div class="section no-pad-bot" id="index-banner">
       <div class="container">
-         <div class="row center">
-            <h2 class="header col s12 center orange-text">Ryan Karl Alldrin</h1>
-               <h4 class="header col s12 light">Web Developer</h3>
+         <div id="centerpiece" class="row center">
+            <img src="img/ryan02.jpg">
+            <h2 id="name" class="header col s12 center red-text text-darken-2">Ryan Karl Alldrin</h2>
+            <h4 id="slogan" class="header col s12 light blue-grey-text">Web Developer</h4>
+            </img>
          </div>
       </div>
    </div>
@@ -145,7 +146,8 @@
             <img class="project-image" src="img/Word_Guess.jpg" />
             <div class="valign-wrapper">
                <div class="project-description">
-                  <h5>Word Guess</h5>
+                  <strong>Word Guess:</strong><br>
+                  <em>HTML, CSS, vanilla JS</em><br>
                   <a href="https://ralldrin.com/word_guess/" target="_blank">Deployed </a>/
                   <a href="https://github.com/akaryrye/word_guess" target="_blank"> Repo</a></p>
                </div>
@@ -157,7 +159,8 @@
             <img class="project-image" src="img/poke_wars.jpg" />
             <div class="valign-wrapper">
                <div class="project-description">
-                  <h5>Poke Wars</h5>
+                  <strong>Poke Wars:</strong><br>
+                  <em>HTML, CSS, JQuery</em><br>
                   <a href="https://ralldrin.com/PokeWars/" target="_blank">Deployed </a>/
                   <a href="https://github.com/akaryrye/PokeWars" target="_blank"> Repo</a></p>
                </div>
@@ -169,7 +172,8 @@
             <img class="project-image" src="img/Trivia_Time.jpg" />
             <div class="valign-wrapper">
                <div class="project-description">
-                  <h5>Movie Trivia</h5>
+                  <strong>Movie Trivia:</strong><br>
+                  <em>HTML, CSS, JQuery, setInterval</em><br>
                   <a href="http://www.ralldrin.com/TriviaGame" target="_blank">Deployed </a>/
                   <a href="https://github.com/akaryrye/TriviaGame" target="_blank"> Repo</a></p>
                </div>
@@ -181,7 +185,8 @@
             <img class="project-image" src="img/Giphy.jpg" />
             <div class="valign-wrapper">
                <div class="project-description">
-                  <h5>Giphy Search</h5>
+                  <strong>Giphy Search:</strong><br>
+                  <em>HTML, Bootstrap, JQuery, Giphy API</em><br>
                   <a href="http://www.ralldrin.com/Giphytastic" target="_blank">Deployed </a>/
                   <a href="https://github.com/akaryrye/Giphytastic" target="_blank"> Repo</a></p>
                </div>
