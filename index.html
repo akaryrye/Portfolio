@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+   <title>Ryan Karl Alldrin</title>
+
+   <!-- CSS  -->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/cbac256c37.js"></script>
+   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+
+   <nav>
+      <div class="nav-wrapper">
+         <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">more_vert</i></a>
+         <ul class="right hide-on-med-and-down">
+            <li><a class="modal-trigger" href="#modal1">About Me</a></li>
+            <li><a class="modal-trigger" href="#modal2">Contact</a></li>
+            <li><a class="modal-trigger" href="#modal3">Projects</a></li>
+         </ul>
+      </div>
+
+      <ul id="slide-out" class="sidenav">
+         <li><img src="img/200px-placeholder.jpg" /></li>
+         <li><a href="#!">About Me</a></li>
+         <li><button data-target="modal1" class="btn modal-trigger">About</button></li>
+         <li><button data-target="modal2" class="btn modal-trigger">Contact</button></li>
+         <li><button data-target="modal3" class="btn modal-trigger">Projects</button></li>
+      </ul>
+   </nav>
+
+   <br><br><br>
+
+   <div class="section no-pad-bot" id="index-banner">
+      <div class="container">
+         <div class="row center">
+            <h2 class="header col s12 center orange-text">Ryan Karl Alldrin</h1>
+               <h4 class="header col s12 light">Web Developer</h3>
+         </div>
+      </div>
+   </div>
+
+   <!-- Modal - About Me -->
+   <div id="modal1" class="modal">
+      <div class="modal-content">
+         <h4>About Me</h4>
+         <p class="black-text">
+            My whole life, I have been fascinated with computers and everything internet. I began my
+            web-development journey way back in High School, when the internet was brand new. I learned to do
+            quite a bit with HTML ... but that is really all there was back then. Life took me in another
+            direction over the next several years, but I still spent much time on computers, playing games (WOW
+            anyone?), building systems, troubleshooting for family and friends, and setting up local networking
+            solutions.
+         </p>
+         <p class="black-text">
+            Fast forward to 2019, I became interested in pursuing a career in web development, so I started
+            learning everything I could on my own. I took Harvard's CS50 online, did the Freecodecamp
+            curriculum, as well as much searching on google and stackoverflow. I tackled many small projects
+            along the way, but I felt like I was starting to hit a wall on my own. The decision to join a
+            bootcamp came with some reservation, due to cost, and uncertainty as to weather anyone would take me
+            seriously in the end. What made me ultimately decide to do so was that I had no other realistic
+            options, and I knew that working with other people would help me to level up.</p>
+         <p class="black-text">
+            I am excited to learn and eager to improve my skills, and eventually do so as a career! Please check
+            out my projects, and if you would like to get in touch (I wont bite, hehe), the contact page has
+            everything you need.
+         </p>
+      </div>
+   </div>
+
+   <!-- Modal - Contact -->
+   <div id="modal2" class="modal">
+      <div class="modal-content">
+         <h5>Contact Me!</h5>
+         <div class="row">
+            <div class="col s12 m6">
+
+               <!-- Contact Card -->
+               <div class="card blue-grey darken-1 center-align">
+                  <div class="card-content white-text">
+                     <span class="card-title">Email</span>
+                     <p>ralldrin@gmail.com</p>
+                  </div>
+                  <div class="card-action">
+                     <a href="https://www.facebook.com/ryan.alldrin" target="_blank">
+                        <i class="fab fa-facebook-square fa-3x blue-text"></i>
+                     </a>
+                     <a href="https://www.linkedin.com/in/ryan-alldrin/" target="_blank">
+                        <i class="fab fa-linkedin fa-3x blue-text"></i>
+                     </a>
+                     <a href="https://github.com/akaryrye" target="_blank">
+                        <i class="fab fa-github-square fa-3x blue-text"></i>
+                     </a>
+                  </div>
+               </div>
+
+               <!-- Contact Form -->
+               <strong><em>Send an email:</em></strong>
+               <div class="divider"></div>
+               <div class="row">
+                  <form class="col s12">
+                     <div class="row">
+                        <div class="input-field col m6 s12">
+                           <input type="text" id="first_name" class="validate">
+                           <label for="first_name">First</label>
+                        </div>
+                        <div class="input-field col m6 s12">
+                           <input type="text" id="last_name" class="validate">
+                           <label for="last_name">Last</label>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="input-field col s12">
+                           <input type="email" id="email" class="validate">
+                           <label for="email">Email</label>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="input-field col s12">
+                           <textarea id="textarea1" class="materialize-textarea"></textarea>
+                           <label for="textarea1">Write your message here</label>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- Modal - Projects -->
+   <div id="modal3" class="modal">
+      <div class="modal-content">
+         <h4>Projects</h4>
+         <div class="divider"></div>
+
+         <!-- Word Guess-->
+         <div class="project-container">
+            <img class="project-image" src="img/Word_Guess.jpg" />
+            <div class="valign-wrapper">
+               <div class="project-description">
+                  <h5>Word Guess</h5>
+                  <a href="https://ralldrin.com/word_guess/" target="_blank">Deployed </a>/
+                  <a href="https://github.com/akaryrye/word_guess" target="_blank"> Repo</a></p>
+               </div>
+            </div>
+         </div>
+
+         <!-- Poke Wars -->
+         <div class="project-container">
+            <img class="project-image" src="img/poke_wars.jpg" />
+            <div class="valign-wrapper">
+               <div class="project-description">
+                  <h5>Poke Wars</h5>
+                  <a href="https://ralldrin.com/PokeWars/" target="_blank">Deployed </a>/
+                  <a href="https://github.com/akaryrye/PokeWars" target="_blank"> Repo</a></p>
+               </div>
+            </div>
+         </div>
+
+         <!-- Trivia Time -->
+         <div class="project-container">
+            <img class="project-image" src="img/Trivia_Time.jpg" />
+            <div class="valign-wrapper">
+               <div class="project-description">
+                  <h5>Movie Trivia</h5>
+                  <a href="http://www.ralldrin.com/TriviaGame" target="_blank">Deployed </a>/
+                  <a href="https://github.com/akaryrye/TriviaGame" target="_blank"> Repo</a></p>
+               </div>
+            </div>
+         </div>
+
+         <!-- Giphtastic -->
+         <div class="project-container">
+            <img class="project-image" src="img/Giphy.jpg" />
+            <div class="valign-wrapper">
+               <div class="project-description">
+                  <h5>Giphy Search</h5>
+                  <a href="http://www.ralldrin.com/Giphytastic" target="_blank">Deployed </a>/
+                  <a href="https://github.com/akaryrye/Giphytastic" target="_blank"> Repo</a></p>
+               </div>
+            </div>
+         </div>
+
+      </div>
+   </div>
+
+   <footer class="page-footer blue-grey darken-3 center-align">
+      <p>copyright 2019 -- Ryan Karl Alldrin</p>
+   </footer>
+
+   <!--  Scripts-->
+   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+   <script src="js/materialize.js"></script>
+   <script src="js/init.js"></script>
+   <script src="js/script.js"></script>
+
+</body>
+
+</html>
