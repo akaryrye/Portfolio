@@ -37,6 +37,22 @@ footer {
   font-weight: bolder;
 }
 
+.modal {
+  overflow-x: hidden;
+}
+
+.heading {
+  position: relative;
+  width: 110%;
+  right: 5%;
+  overflow: hidden;
+}
+
+#card-icons{
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .project-container {
   display: flex;
   justify-content: flex-start;
@@ -54,6 +70,12 @@ footer {
 .project-description {
   text-align: center;
   padding-left: 25px;
+}
+
+p img {
+  float: right;
+  margin: 20px;
+  width: 50%;
 }
 
 @media only screen and (max-width: 480px){
