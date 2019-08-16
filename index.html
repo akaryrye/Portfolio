@@ -16,12 +16,12 @@
 <body>
 
    <nav>
-      <div class="nav-wrapper red darken-4">
+      <div class="nav-wrapper blue-grey darken-3">
          <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">more_vert</i></a>
-         <ul id="" class="hide-on-med-and-down">
-            <li><a class="modal-trigger" href="#modal1">About Me</a></li>
-            <li><a class="modal-trigger" href="#modal2">Contact</a></li>
-            <li><a class="modal-trigger" href="#modal3">Projects</a></li>
+         <ul id="nav-buttons" class="hide-on-med-and-down">
+            <li><a class="modal-trigger nav-button" href="#modal1">About Me</a></li>
+            <li><a class="modal-trigger nav-button" href="#modal2">Contact</a></li>
+            <li><a class="modal-trigger nav-button" href="#modal3">Projects</a></li>
          </ul>
       </div>
 
@@ -33,16 +33,25 @@
       </ul>
    </nav>
 
-   <br><br><br>
-
-   <div class="section no-pad-bot" id="index-banner">
-      <div class="container">
-         <div id="centerpiece" class="row center">
-            <h2 id="name" class="header col s12 center red-text text-darken-2">Ryan Karl Alldrin</h2>
-            <h4 id="slogan" class="header col s12 light blue-grey-text">Web Developer</h4>
+   <div class="row section" id="index-banner">
+      <div id="centerpiece" class="col s12 m10 push-m1 l-8 push-l1 blue-grey lighten-3 center-align">
+         <div class="row">
+            <h2 id="name" class="col s12 header red-text text-darken-4">Ryan Karl Alldrin</h2>
+         </div>
+         <div class="row">
+            <h4 id="slogan" class="col s12 header blue-grey-text">Web Developer</h4>
+         </div>
+         <div class="row">
+            <div class="col s8 push-s2 m6 push-m3 l4 push-l4">
+               <img src="img/ryan01.jpg">
+            </div>
          </div>
       </div>
    </div>
+
+
+
+
 
    <!-- Modal - About Me -->
    <div id="modal1" class="modal">
@@ -140,41 +149,15 @@
          <h4 class="heading blue-grey lighten-5 blue-grey-text center-align">Projects</h4>
          <div class="divider"></div>
 
-         <!-- Word Guess-->
+         <!-- Solar System -->
          <div class="project-container">
-            <img class="project-image" src="img/Word_Guess.jpg" />
+            <img class="project-image" src="img/Solar-System.jpg" />
             <div class="valign-wrapper">
                <div class="project-description">
-                  <strong>Word Guess:</strong><br>
-                  <em>HTML, CSS, vanilla JS</em><br>
-                  <a href="https://ralldrin.com/word_guess/" target="_blank">Deployed </a>/
-                  <a href="https://github.com/akaryrye/word_guess" target="_blank"> Repo</a></p>
-               </div>
-            </div>
-         </div>
-
-         <!-- Poke Wars -->
-         <div class="project-container">
-            <img class="project-image" src="img/poke_wars.jpg" />
-            <div class="valign-wrapper">
-               <div class="project-description">
-                  <strong>Poke Wars:</strong><br>
-                  <em>HTML, CSS, JQuery</em><br>
-                  <a href="https://ralldrin.com/PokeWars/" target="_blank">Deployed </a>/
-                  <a href="https://github.com/akaryrye/PokeWars" target="_blank"> Repo</a></p>
-               </div>
-            </div>
-         </div>
-
-         <!-- Trivia Time -->
-         <div class="project-container">
-            <img class="project-image" src="img/Trivia_Time.jpg" />
-            <div class="valign-wrapper">
-               <div class="project-description">
-                  <strong>Movie Trivia:</strong><br>
-                  <em>HTML, CSS, JQuery, setInterval</em><br>
-                  <a href="http://www.ralldrin.com/TriviaGame" target="_blank">Deployed </a>/
-                  <a href="https://github.com/akaryrye/TriviaGame" target="_blank"> Repo</a></p>
+                  <strong>Solar System:</strong><br>
+                  <em>HTML, CSS, Canvas, JQuery, AJAX, Wikipedia API</em><br>
+                  <a href="https://akaryrye.github.io/Giphytastic" target="_blank">Deployed </a>/
+                  <a href="https://github.com/akaryrye/Giphytastic" target="_blank"> Repo</a></p>
                </div>
             </div>
          </div>
@@ -186,8 +169,47 @@
                <div class="project-description">
                   <strong>Giphy Search:</strong><br>
                   <em>HTML, Bootstrap, JQuery, Giphy API</em><br>
-                  <a href="http://www.ralldrin.com/Giphytastic" target="_blank">Deployed </a>/
+                  <a href="https://akaryrye.github.io/Giphytastic" target="_blank">Deployed </a>/
                   <a href="https://github.com/akaryrye/Giphytastic" target="_blank"> Repo</a></p>
+               </div>
+            </div>
+         </div>
+
+         <!-- Poke Wars -->
+         <div class="project-container">
+            <img class="project-image" src="img/poke_wars.jpg" />
+            <div class="valign-wrapper">
+               <div class="project-description">
+                  <strong>Poke Wars:</strong><br>
+                  <em>HTML, CSS, JQuery</em><br>
+                  <a href="https://akaryrye.github.io/PokeWars/" target="_blank">Deployed </a>/
+                  <a href="https://github.com/akaryrye/PokeWars" target="_blank"> Repo</a></p>
+               </div>
+            </div>
+         </div>
+
+         <!-- Word Guess-->
+         <div class="project-container">
+            <img class="project-image" src="img/Word_Guess.jpg" />
+            <div class="valign-wrapper">
+               <div class="project-description">
+                  <strong>Word Guess:</strong><br>
+                  <em>HTML, CSS, vanilla JS</em><br>
+                  <a href="https://akaryrye.github.io/word_guess/" target="_blank">Deployed </a>/
+                  <a href="https://github.com/akaryrye/word_guess" target="_blank"> Repo</a></p>
+               </div>
+            </div>
+         </div>
+
+         <!-- Trivia Time -->
+         <div class="project-container">
+            <img class="project-image" src="img/Trivia_Time.jpg" />
+            <div class="valign-wrapper">
+               <div class="project-description">
+                  <strong>Movie Trivia:</strong><br>
+                  <em>HTML, CSS, JQuery, setInterval</em><br>
+                  <a href="https://akaryrye.github.io/TriviaGame" target="_blank">Deployed </a>/
+                  <a href="https://github.com/akaryrye/TriviaGame" target="_blank"> Repo</a></p>
                </div>
             </div>
          </div>

@@ -6,10 +6,25 @@
  * Made By MaterializeCSS.com
  */
 
+body {
+  background: #cccccc url("../img/concrete-texture.png") repeat fixed center;
+}
+
 nav {
   width: 100%;
 }
- 
+
+#nav-buttons {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.nav-button {
+  margin: 0 5vw;
+  border-radius: 25px;
+}
+
 footer {
   position: fixed;
   width: 100%;
@@ -18,23 +33,12 @@ footer {
 }
 
 #centerpiece {
-  position: relative;
-  border-radius: 10px;
+  border-radius: 7px;
 }
 
-#name {
-  position: absolute;
-  top: -50px;
-  right: 0px;
-  opacity: .6;
-  font-weight: bolder;
-}
-
-#slogan {
-  position: absolute;
-  bottom: 28px;
-  opacity: .6;
-  font-weight: bolder;
+#centerpiece img {
+  width: 100%;
+  border-radius: 50px;
 }
 
 .modal {
